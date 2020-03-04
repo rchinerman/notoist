@@ -7,4 +7,4 @@ export default {
   component: MenuItem,
 };
 
-export const Text = () => <MenuItem label='Menu Item' Icon={FaBeer} />;
+export const Base = () => <MenuItem label='Menu Item' Icon={FaBeer} />;
