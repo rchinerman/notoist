@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import styled from 'styled-components';
+import { styled } from '../theme';
 
 type MenuProps = { children: ReactNode | Array<ReactNode> };
 

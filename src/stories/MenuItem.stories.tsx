@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuItem } from '../components/MenuItem';
+import { MenuItem } from '../common/MenuItem';
 import { FaBeer } from 'react-icons/fa';
 
 export default {

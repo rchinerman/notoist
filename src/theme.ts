@@ -1,3 +1,5 @@
+import baseStyled, { ThemedStyledInterface } from 'styled-components';
+
 export const theme = {
   color: {
     red: '#DB4C3F', // main todoist color
@@ -19,5 +21,11 @@ export const theme = {
     normal: 'gray',
     hover: '#202020',
     header: 'white',
+    blue: '#246fe0',
+    green: '#058527',
+    purple: '#692fc2',
   },
 };
+
+export type Theme = typeof theme;
+export const styled = baseStyled as ThemedStyledInterface<Theme>;
